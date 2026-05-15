@@ -10,7 +10,7 @@
     "headline": "Entusiasta a Desenvolvedor Full Stack",
     "photo": "assets/images/ogos-profile-picture.png",
     "photoAlt": "Foto de perfil de Diogo Melo",
-    "summary": "Estudante de desenvolvimento focado na construção de aplicações de ponta a ponta. Com experiência prática no desenvolvimento de interfaces mobile responsivas e na estruturação de backends robustos, busco unir a lógica de programação à eficiência da automação de sistemas para criar soluções completas, seguras e de impacto.",
+    "summary": "Desenvolvedor focado na construção de aplicações de ponta a ponta. Com experiência prática no desenvolvimento de interfaces mobile responsivas e na estruturação de backends robustos, busco unir a lógica de programação à eficiência da automação de sistemas para criar soluções completas, seguras e de impacto.",
     "cvUrl": "#"
   },
   "contacts": [
@@ -29,76 +29,238 @@
   ],
   "careerSteps": [
     {
-      "title": "Desenvolvedor Full Stack em Formação",
-      "description": "Consolidar a capacidade de transformar regras de negócio e interfaces em código, entendendo a comunicação entre o frontend e o backend, e estruturando projetos do zero para apresentações práticas.",
+      "title": "Desenvolvedor Full Stack Júnior",
+      "description": "Executar tarefas bem delimitadas com mentoria ativa, escrever código limpo e testável, consumir APIs e versionar código, com suporte ativo do time e foco em aprendizado contínuo.",
       "softSkills": [
-        "Desenvolvimento contínuo da comunicação e trabalho em equipe.",
-        "Organização para estruturar entregas e apresentações (como Demo Days).",
-        "Visão sistêmica para entender como os componentes de software se conectam."
+        "Comunicação clara para pedir ajuda e documentar dúvidas.",
+        "Disciplina para seguir padrões de código e boas práticas.",
+        "Curiosidade para investigar erros antes de pedir solução.",
+        "Resiliência para lidar com feedbacks e prazos curtos."
       ],
       "roadmap": [
-        "Kotlin & Jetpack Compose",
-        "Spring Boot",
-        "Bancos de dados NoSQL",
         "Lógica de Programação",
-        "Clean Code básico"
+        "Estruturas de Dados",
+        "Kotlin",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Frameworks",
+        "Git",
+        "APIs RESTful",
+        "JSON",
+        "SQL",
+        "NoSQL",
+        "HTTP/HTTPS",
+        "Testes unitários",
+        "Gerenciamento de dependências",
+        "Tratamento de erros e exceções",
+        "Autenticação",
+        "Console e debug",
+        "Versionamento semântico",
+        "Princípios de Clean Code"
       ]
     },
     {
-      "title": "Desenvolvedor Pleno & Automação",
-      "description": "Atuar com forte autonomia técnica no desenvolvimento fullstack (Mobile/Backend) e implementar soluções de infraestrutura e automação para melhorar a segurança e o fluxo de dados.",
+      "title": "Desenvolvedor Full Stack Pleno",
+      "description": "Atuar com autonomia em projetos de média complexidade, propor melhorias técnicas, escrever testes de integração, realizar code reviews, contribuir na modelagem de soluções e garantir a qualidade contínua do código.",
       "softSkills": [
-        "Capacidade de investigar e resolver bugs complexos.",
-        "Apoio a colegas de turma e devolução de conhecimento para a comunidade.",
-        "Equilíbrio entre foco técnico e compreensão da realidade local do usuário."
+        "Responsabilidade sobre estimativas, entregas e impacto no produto.",
+        "Comunicação clara de trade-offs técnicos e decisões de implementação.",
+        "Colaboração construtiva em revisões de código e refinamentos de backlog.",
+        "Empatia técnica para mentorar juniores e compartilhar conhecimento.",
+        "Iniciativa para investigar e desbloquear impedimentos antes de escalar."
       ],
       "roadmap": [
-        "Arquitetura de Software (MVVM, SOLID)",
-        "Docker & Containerização",
-        "Scripts e Automação (Termux/Bash)",
-        "Segurança e Redes",
-        "Integração Contínua"
+        "Design Patterns",
+        "Princípios SOLID",
+        "Arquitetura limpa",
+        "Testes de integração",
+        "Testes de contrato",
+        "Testes end-to-end",
+        "Containerização",
+        "Orquestração local",
+        "Modelagem SQL",
+        "Modelagem NoSQL",
+        "Cache",
+        "Gerenciamento de estado",
+        "Pipeline CI/CD",
+        "Observabilidade",
+        "Logs estruturados",
+        "Refatoração",
+        "Versionamento de API",
+        "Otimização de performance",
+        "Acessibilidade",
+        "Segurança aplicada",
+        "WebSockets",
+        "Métricas de qualidade",
+        "Code review estruturado"
+      ]
+    },
+    {
+      "title": "Tech Lead (Liderança Técnica)",
+      "description": "Liderar a estratégia técnica de um time, definir padrões de arquitetura local, mentorar desenvolvedores, garantir qualidade contínua, desbloquear impedimentos complexos e alinhar decisões com produto e negócio.",
+      "softSkills": [
+        "Visão sistêmica entre negócio, produto e engenharia.",
+        "Mentoria ativa com planos de evolução individual.",
+        "Delegação consciente mantendo padrões de qualidade.",
+        "Resolução de conflitos técnicos e alinhamento de decisões.",
+        "Tradução de requisitos de negócio em estratégia técnica.",
+        "Comunicação executiva e gestão de expectativas."
+      ],
+      "roadmap": [
+        "Arquitetura distribuída",
+        "Microsserviços",
+        "Comunicação síncrona",
+        "Comunicação assíncrona",
+        "Arquitetura orientada a eventos",
+        "CI/CD avançado",
+        "Estratégias de deploy",
+        "Observabilidade avançada",
+        "Definição de SLOs e SLIs",
+        "Tracing distribuído",
+        "Gestão de segredos",
+        "Segurança shift-left",
+        "Modelagem de ameaças",
+        "Gestão de dívida técnica",
+        "Refatoração arquitetural",
+        "ADRs",
+        "Code review estratégico",
+        "Desenho de APIs por domínio",
+        "Padrões de resiliência",
+        "Gerenciamento de estado distribuído",
+        "Cache distribuído",
+        "Otimização de custos infra",
+        "Métricas de engenharia",
+        "Gestão de incidentes",
+        "Cultura blameless",
+        "Mentoria técnica estruturada",
+        "Onboarding escalável",
+        "Documentação técnica viva",
+        "Alinhamento produto-engenharia",
+        "Gestão de capacidade do time"
       ]
     }
   ],
   "skillGroups": [
     {
-      "title": "Mobile & Interface",
+      "title": "Mobile & Front-end",
       "skills": [
         {
           "name": "Kotlin",
-          "level": 75
+          "level": 55
         },
         {
           "name": "Jetpack Compose",
-          "level": 70
+          "level": 40
+        },
+        {
+          "name": "JavaScript",
+          "level": 40
+        },
+        {
+          "name": "HTML5/CSS3",
+          "level": 35
+        },
+        {
+          "name": "React JS",
+          "level": 25
+        },
+        {
+          "name": "Angular",
+          "level": 5
+        },
+        {
+          "name": "Acessibilidade (conceitos)",
+          "level": 20
+        },
+        {
+          "name": "UI/UX (conceitos)",
+          "level": 45
         }
       ]
     },
     {
-      "title": "Backend, Dados & Infraestrutura",
+      "title": "Backend & Banco de Dados",
       "skills": [
         {
-          "name": "Spring Boot (APIs REST)",
-          "level": 75
+          "name": "Spring Boot",
+          "level": 35
         },
         {
-          "name": "Bancos de dados NoSQL (MongoDB)",
+          "name": "Java",
+          "level": 30
+        },
+        {
+          "name": "SQL",
+          "level": 20
+        },
+        {
+          "name": "NoSQL",
+          "level": 40
+        },
+        {
+          "name": "Modelagem de Dados",
+          "level": 40
+        },
+        {
+          "name": "NodeJS",
+          "level": 25
+        },
+        {
+          "name": "Python",
+          "level": 10
+        }
+      ]
+    },
+    {
+      "title": "DevOps & Automação",
+      "skills": [
+        {
+          "name": "Lógica de Programação",
           "level": 70
         },
         {
-          "name": "Automação (Termux/Scripts)",
+          "name": "Git e Versionamento",
           "level": 65
+        },
+        {
+          "name": "Estruturas de Dados",
+          "level": 70
+        },
+        {
+          "name": "Automação com Scripts (Termux, Bash)",
+          "level": 15
+        },
+        {
+          "name": "Testes unitários (JUnit/MockK)",
+          "level": 5
+        },
+        {
+          "name": "Containerização (Docker)",
+          "level": 10
+        },
+        {
+          "name": "CI/CD (Conceitos)",
+          "level": 20
+        },
+        {
+          "name": "Observabilidade (logs, métricas)",
+          "level": 30
         }
       ]
     }
   ],
   "otherSkills": [
     "Visão Sistêmica",
-    "Clean Code",
-    "Redes e DNS",
-    "Trabalho em Equipe",
-    "Resolução de Problemas"
+    "Clean Code (conceitos básicos)",
+    "Redes (conceitos básicos)",
+    "Resolução de Problemas",
+    "Comunicação Técnica",
+    "Aprendizado Contínuo",
+    "Design Patterns (conceitos básicos)",
+    "Princípios SOLID (conceitos básicos)",
+    "Scrum",
+    "Kanban"
   ],
   "languages": [
     {
@@ -107,7 +269,7 @@
     },
     {
       "name": "Inglês",
-      "level": "Técnico para leitura de documentação"
+      "level": "Técnico"
     }
   ]
 }
