@@ -108,36 +108,18 @@
         "Comunicação executiva e gestão de expectativas."
       ],
       "roadmap": [
-        "Arquitetura distribuída",
-        "Microsserviços",
-        "Comunicação síncrona",
-        "Comunicação assíncrona",
-        "Arquitetura orientada a eventos",
-        "CI/CD avançado",
-        "Estratégias de deploy",
-        "Observabilidade avançada",
-        "Definição de SLOs e SLIs",
-        "Tracing distribuído",
-        "Gestão de segredos",
-        "Segurança shift-left",
-        "Modelagem de ameaças",
-        "Gestão de dívida técnica",
-        "Refatoração arquitetural",
-        "ADRs",
-        "Code review estratégico",
-        "Desenho de APIs por domínio",
-        "Padrões de resiliência",
-        "Gerenciamento de estado distribuído",
-        "Cache distribuído",
-        "Otimização de custos infra",
-        "Métricas de engenharia",
-        "Gestão de incidentes",
-        "Cultura blameless",
-        "Mentoria técnica estruturada",
-        "Onboarding escalável",
-        "Documentação técnica viva",
-        "Alinhamento produto-engenharia",
-        "Gestão de capacidade do time"
+        "Arquitetura distribuída e microsserviços",
+        "CI/CD avançado e estratégias de deploy",
+        "Observabilidade e confiabilidade (SRE)",
+        "Segurança shift-left e gestão de riscos",
+        "Governança técnica e ADRs",
+        "Gestão estratégica de dívida técnica",
+        "Code review arquitetural e padrões",
+        "Mentoria estruturada e evolução do time",
+        "Alinhamento produto-engenharia e negócio",
+        "Otimização de custos e métricas DORA",
+        "Resiliência distribuída e gestão de incidentes",
+        "Comunicação entre sistemas (síncrona/assíncrona)"
       ]
     }
   ],
@@ -228,7 +210,7 @@
           "level": 70
         },
         {
-          "name": "Automação com Scripts (Termux, Bash)",
+          "name": "Automação com Scripts",
           "level": 15
         },
         {
