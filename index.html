@@ -39,13 +39,63 @@
 		}
 
 		.profile-picture {
-			height: 220px;
+			height: auto;
+			max-width: 100%;
 			object-fit: cover;
 			width: 220px;
 		}
 
 		.badge {
 			margin-bottom: .35rem;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.resume-body {
+			padding: 1.5rem;
+		}
+
+		@media (min-width: 768px) {
+			.resume-body {
+				padding: 3rem;
+			}
+		}
+
+		@media (max-width: 767.98px) {
+			.resume-picture-holder {
+				text-align: center !important;
+			}
+
+			.primary-info,
+			.secondary-info {
+				text-align: center;
+				width: 100%;
+			}
+
+			.resume-social {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 1rem;
+				margin-top: 1rem;
+			}
+
+			.resume-social li {
+				margin-bottom: 0 !important;
+			}
+		}
+
+		@media (max-width: 575.98px) {
+			.profile-picture {
+				width: 150px;
+			}
+
+			.resume-section-title {
+				font-size: 1.5rem;
+			}
 		}
 	</style>
 </head>
@@ -97,7 +147,7 @@
 					</h2>
 					<div class="resume-section-content">
 						<p id="profile-summary"></p>
-						<a id="cv-link" class="btn btn-primary" href="#">Baixar curriculo em PDF</a>
+						<a id="cv-link" class="btn btn-primary bg-primary" href="#">Baixar curriculo em PDF</a>
 					</div>
 				</section>
 
