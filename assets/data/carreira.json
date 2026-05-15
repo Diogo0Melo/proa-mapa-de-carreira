@@ -1,127 +1,113 @@
 {
   "seo": {
-    "title": "Sarah Lima | Mapa de Carreira em Tecnologia",
-    "description": "Mapa de carreira de Sarah Lima, com objetivos profissionais, trilha de aprendizagem, habilidades, idiomas e contatos.",
-    "author": "Sarah Lima",
-    "canonicalUrl": "https://exemplo.com/mapa-de-carreira/"
+    "title": "Diogo Melo | Mapa de Carreira",
+    "description": "Mapa de carreira focado em desenvolvimento full stack (Front-end, Mobile, Back-end e Banco de dados), automação e infraestrutura.",
+    "author": "Diogo Melo",
+    "canonicalUrl": "#/mapa-de-carreira/"
   },
   "profile": {
-    "name": "Sarah Lima",
-    "headline": "Educacao, Web e Gestao de TI",
-    "photo": "assets/images/profile.jpg",
-    "photoAlt": "Foto profissional de Sarah Lima",
-    "summary": "Tenho experiencia em desenvolvimento web, educacao e gestao de tecnologia. Participei de projetos que transformaram ideias em solucoes digitais e agora organizo meu mapa de carreira com foco em aprendizagem continua, colaboracao e impacto profissional.",
+    "name": "Diogo Melo",
+    "headline": "Entusiasta a Desenvolvedor Full Stack",
+    "photo": "assets/images/ogos-profile-picture.png",
+    "photoAlt": "Foto de perfil de Diogo Melo",
+    "summary": "Estudante de desenvolvimento focado na construção de aplicações de ponta a ponta. Com experiência prática no desenvolvimento de interfaces mobile responsivas e na estruturação de backends robustos, busco unir a lógica de programação à eficiência da automação de sistemas para criar soluções completas, seguras e de impacto.",
     "cvUrl": "#"
   },
   "contacts": [
     {
-      "label": "sarah.lima@example.com",
-      "url": "mailto:sarah.lima@example.com"
+      "label": "diogomelo500@gmail.com",
+      "url": "mailto:diogomelo500@gmail.com"
     },
     {
-      "label": "linkedin.com/in/sarahlima",
-      "url": "https://www.linkedin.com/in/sarahlima"
+      "label": "linkedin / Diogo Melo",
+      "url": "https://www.linkedin.com/in/diogo0melo"
     },
     {
-      "label": "github.com/sarahlima",
-      "url": "https://github.com/sarahlima"
+      "label": "github / Diogo Melo",
+      "url": "https://github.com/Diogo0Melo"
     }
   ],
   "careerSteps": [
     {
-      "title": "Desenvolvedora Junior",
-      "description": "Consolidar fundamentos de desenvolvimento web, versionamento, acessibilidade, logica de programacao e boas praticas de comunicacao em equipe.",
+      "title": "Desenvolvedor Full Stack em Formação",
+      "description": "Consolidar a capacidade de transformar regras de negócio e interfaces em código, entendendo a comunicação entre o frontend e o backend, e estruturando projetos do zero para apresentações práticas.",
       "softSkills": [
-        "Comunicacao clara para pedir ajuda e registrar aprendizados.",
-        "Organizacao para estudar, praticar e acompanhar tarefas.",
-        "Curiosidade para investigar problemas e testar solucoes."
+        "Desenvolvimento contínuo da comunicação e trabalho em equipe.",
+        "Organização para estruturar entregas e apresentações (como Demo Days).",
+        "Visão sistêmica para entender como os componentes de software se conectam."
       ],
       "roadmap": [
-        "HTML semantico",
-        "CSS responsivo",
-        "JavaScript",
-        "Git e GitHub",
-        "Acessibilidade"
+        "Kotlin & Jetpack Compose",
+        "Spring Boot",
+        "Bancos de dados NoSQL",
+        "Lógica de Programação",
+        "Clean Code básico"
       ]
     },
     {
-      "title": "Desenvolvedora Pleno",
-      "description": "Atuar com mais autonomia, participar de decisoes tecnicas e entregar funcionalidades com qualidade, testes e documentacao.",
+      "title": "Desenvolvedor Pleno & Automação",
+      "description": "Atuar com forte autonomia técnica no desenvolvimento fullstack (Mobile/Backend) e implementar soluções de infraestrutura e automação para melhorar a segurança e o fluxo de dados.",
       "softSkills": [
-        "Responsabilidade sobre entregas e prazos combinados.",
-        "Colaboracao em revisoes de codigo e planejamento.",
-        "Capacidade de explicar escolhas tecnicas para diferentes publicos."
+        "Capacidade de investigar e resolver bugs complexos.",
+        "Apoio a colegas de turma e devolução de conhecimento para a comunidade.",
+        "Equilíbrio entre foco técnico e compreensão da realidade local do usuário."
       ],
       "roadmap": [
-        "React",
-        "Node.js",
-        "APIs REST",
-        "Testes automatizados",
-        "Banco de dados"
-      ]
-    },
-    {
-      "title": "Lideranca tecnica",
-      "description": "Contribuir para padroes de arquitetura, orientar pessoas em desenvolvimento e apoiar a tomada de decisao tecnica com base em dados e contexto.",
-      "softSkills": [
-        "Mentoria com escuta ativa e feedback construtivo.",
-        "Priorizacao entre impacto, custo, risco e aprendizado.",
-        "Visao sistemica sobre produto, pessoas e tecnologia."
-      ],
-      "roadmap": [
-        "Arquitetura de software",
-        "Cloud",
-        "Observabilidade",
-        "Seguranca"
+        "Arquitetura de Software (MVVM, SOLID)",
+        "Docker & Containerização",
+        "Scripts e Automação (Termux/Bash)",
+        "Segurança e Redes",
+        "Integração Contínua"
       ]
     }
   ],
   "skillGroups": [
     {
-      "title": "Frontend",
+      "title": "Mobile & Interface",
       "skills": [
         {
-          "name": "HTML, CSS e JavaScript",
-          "level": 85
+          "name": "Kotlin",
+          "level": 75
         },
         {
-          "name": "React",
+          "name": "Jetpack Compose",
           "level": 70
         }
       ]
     },
     {
-      "title": "Backend e dados",
+      "title": "Backend, Dados & Infraestrutura",
       "skills": [
         {
-          "name": "Node.js e APIs",
-          "level": 65
+          "name": "Spring Boot (APIs REST)",
+          "level": 75
         },
         {
-          "name": "SQL",
-          "level": 60
+          "name": "Bancos de dados NoSQL (MongoDB)",
+          "level": 70
+        },
+        {
+          "name": "Automação (Termux/Scripts)",
+          "level": 65
         }
       ]
     }
   ],
   "otherSkills": [
-    "Git",
-    "Comunicacao",
-    "Documentacao",
-    "Code review"
+    "Visão Sistêmica",
+    "Clean Code",
+    "Redes e DNS",
+    "Trabalho em Equipe",
+    "Resolução de Problemas"
   ],
   "languages": [
     {
-      "name": "Portugues",
+      "name": "Português",
       "level": "Nativo"
     },
     {
-      "name": "Ingles",
-      "level": "Tecnico"
-    },
-    {
-      "name": "Espanhol",
-      "level": "Profissional"
+      "name": "Inglês",
+      "level": "Técnico para leitura de documentação"
     }
   ]
 }

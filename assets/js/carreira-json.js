@@ -84,19 +84,30 @@ const renderProfile = ({ profile, contacts }) => {
 	const contactList = document.getElementById("contact-list");
 	contactList.innerHTML = "";
 
-	contacts.forEach((contact) => {
-		const listItem = createElement("li", "mb-2");
-		const link = createElement("a", "text-link", contact.label);
-		link.href = contact.url;
+contacts.forEach((contact) => {
+  const listItem = createElement("li", "mb-2");
+  const link = createElement("a", "text-link");
+  link.href = contact.url;
+  link.setAttribute("aria-label", contact.label);
 
-		if (contact.url.startsWith("http")) {
-			link.target = "_blank";
-			link.rel = "noopener";
-		}
+  if (contact.url.startsWith("mailto:")) {
+    link.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878-5.64-3.384 5.64-3.384v6.768zm-7.04.142L8 9.271l-5.64 3.384 5.64 3.384zm-5.64-7.04A1 1 0 0 0 2 6.882v5.731l4.36-2.617z"/></svg>';
+  } else if (contact.url.includes("linkedin.com")) {
+    link.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"><path d="M0 1.146V15h4.776V9.969h-1.316V8.568h1.316V7.074c0-1.296.55-2.118 2.02-2.118h1.077V13.75h2.054V9.969h-2.054V8.908c0-.545.048-.925.925-.925h.978V6.288s-.877-.156-1.704-.156c-1.697 0-2.835 1.019-2.835 2.87v1.632h-1.316V15H16V1.146H0z"/></svg>';
+  } else if (contact.url.includes("github.com")) {
+    link.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>';
+  } else {
+    link.textContent = contact.label;
+  }
 
-		listItem.appendChild(link);
-		contactList.appendChild(listItem);
-	});
+  if (contact.url.startsWith("http")) {
+    link.target = "_blank";
+    link.rel = "noopener";
+  }
+
+  listItem.appendChild(link);
+  contactList.appendChild(listItem);
+});
 };
 
 const renderCareerTimeline = (careerSteps) => {
